@@ -29,7 +29,7 @@
   left: .1em;
 }
 .heroes .text {
-  position: relative;
+  position:relative;
   top: -3px;
 }
 .heroes .badge {

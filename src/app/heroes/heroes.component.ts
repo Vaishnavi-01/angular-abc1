@@ -12,8 +12,7 @@ export class heroesComponent implements OnInit {
      id:1,
      name:"Windstorm"
    };
-
-*/
+  */
    heroes=HEROES;
    selectedHero:Hero;
    onSelect(hero:Hero):void{
