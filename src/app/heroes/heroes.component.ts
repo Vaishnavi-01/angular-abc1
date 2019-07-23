@@ -15,8 +15,8 @@ export class heroesComponent implements OnInit {
   */
    heroes=HEROES;
    selectedHero:Hero;
-   onSelect(hero:Hero):void{
-     this.selectedHero=hero;
+   onSelect(h:Hero):void{
+     this.selectedHero=h;
    }
   constructor() { }
 
